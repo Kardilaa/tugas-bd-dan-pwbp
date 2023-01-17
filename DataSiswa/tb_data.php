@@ -16,22 +16,8 @@ $result = mysqli_query($db, "SELECT * FROM data_siswa");
 </head>
 <body style="background:grey">
     <div class="container mt-5">
-    <h1 class="text-black">DATA TABLES</h1>
-</div>
-<div class="container mt-3">
-    <div class="container mt-3">
-        <div class="row fw-bold card">
-            <div class="row g-2 align-items-center px-3 mb-3">
-                <div class="col-auto">
-                <span class="text-black">Urutkan Berdasarkan</span>
-                <select name="urut">
-                  <option value="tanggal">NIS</option>
-                  <option value="waktu">NAME</option>
-                  <option value="lokasi">CLASS</option>
-</select>
-<button type="submit">urutkan</button>
-             </div>
-                
+    <h1 class="text-black">DATA TABEL SISWA</h1>
+</div>          
     <div class="card my-4 mt-3">
     <div class="d-grip gap-2 col-12 mt-2">
     <table class="table table-light table-hover table-borderless">
